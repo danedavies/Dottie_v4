@@ -1,0 +1,1236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460FB2E52EB081FE003694C1 /* Dottie_v4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB2E42EB081FE003694C1 /* Dottie_v4App.swift */; };
+		460FB2E72EB081FE003694C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB2E62EB081FE003694C1 /* ContentView.swift */; };
+		460FB2E92EB08200003694C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FB2E82EB08200003694C1 /* Assets.xcassets */; };
+		460FB2EC2EB08200003694C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FB2EB2EB08200003694C1 /* Preview Assets.xcassets */; };
+		460FB2F62EB08200003694C1 /* Dottie_v4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB2F52EB08200003694C1 /* Dottie_v4Tests.swift */; };
+		460FB3002EB08201003694C1 /* Dottie_v4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB2FF2EB08201003694C1 /* Dottie_v4UITests.swift */; };
+		460FB3022EB08201003694C1 /* Dottie_v4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3012EB08201003694C1 /* Dottie_v4UITestsLaunchTests.swift */; };
+		460FB3062EB08201003694C1 /* Dottie_v4 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 460FB3052EB08201003694C1 /* Dottie_v4 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		460FB30B2EB08202003694C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FB30A2EB08202003694C1 /* Assets.xcassets */; };
+		460FB3112EB08202003694C1 /* Dottie_v4 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 460FB3102EB08202003694C1 /* Dottie_v4 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		460FB3162EB08202003694C1 /* Dottie_v4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3152EB08202003694C1 /* Dottie_v4App.swift */; };
+		460FB3182EB08202003694C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3172EB08202003694C1 /* ContentView.swift */; };
+		460FB31A2EB08202003694C1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3192EB08202003694C1 /* NotificationController.swift */; };
+		460FB31C2EB08202003694C1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB31B2EB08202003694C1 /* NotificationView.swift */; };
+		460FB31E2EB08202003694C1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB31D2EB08202003694C1 /* ComplicationController.swift */; };
+		460FB3202EB08204003694C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FB31F2EB08204003694C1 /* Assets.xcassets */; };
+		460FB3232EB08204003694C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460FB3222EB08204003694C1 /* Preview Assets.xcassets */; };
+		460FB32F2EB08204003694C1 /* Dottie_v4_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB32E2EB08204003694C1 /* Dottie_v4_WatchKit_AppTests.swift */; };
+		460FB3392EB08204003694C1 /* Dottie_v4_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3382EB08204003694C1 /* Dottie_v4_WatchKit_AppUITests.swift */; };
+		460FB33B2EB08204003694C1 /* Dottie_v4_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB33A2EB08204003694C1 /* Dottie_v4_WatchKit_AppUITestsLaunchTests.swift */; };
+		460FB3572EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */; };
+		460FB3582EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */; };
+		460FB3592EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */; };
+		460FB35A2EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */; };
+		460FB35B2EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */; };
+		460FB35C2EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */; };
+		460FB35F2EB08850003694C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB35E2EB08850003694C1 /* Persistence.swift */; };
+		460FB3602EB08850003694C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB35E2EB08850003694C1 /* Persistence.swift */; };
+		460FB3612EB08850003694C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB35E2EB08850003694C1 /* Persistence.swift */; };
+		460FB3622EB08850003694C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB35E2EB08850003694C1 /* Persistence.swift */; };
+		460FB3632EB08850003694C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB35E2EB08850003694C1 /* Persistence.swift */; };
+		460FB3642EB08850003694C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB35E2EB08850003694C1 /* Persistence.swift */; };
+		460FB3662EB0F0C0003694C1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */; };
+		460FB3672EB0F0C0003694C1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */; };
+		460FB3682EB0F0C0003694C1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */; };
+		460FB3692EB0F0C0003694C1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */; };
+		460FB36A2EB0F0C0003694C1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */; };
+		460FB36B2EB0F0C0003694C1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460FB2F22EB08200003694C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FB2D92EB081FE003694C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FB2E02EB081FE003694C1;
+			remoteInfo = Dottie_v4;
+		};
+		460FB2FC2EB08201003694C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FB2D92EB081FE003694C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FB2E02EB081FE003694C1;
+			remoteInfo = Dottie_v4;
+		};
+		460FB3072EB08201003694C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FB2D92EB081FE003694C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FB3042EB08201003694C1;
+			remoteInfo = "Dottie_v4 WatchKit App";
+		};
+		460FB3122EB08202003694C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FB2D92EB081FE003694C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FB30F2EB08202003694C1;
+			remoteInfo = "Dottie_v4 WatchKit Extension";
+		};
+		460FB32B2EB08204003694C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FB2D92EB081FE003694C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FB30F2EB08202003694C1;
+			remoteInfo = "Dottie_v4 WatchKit Extension";
+		};
+		460FB3352EB08204003694C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FB2D92EB081FE003694C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FB3042EB08201003694C1;
+			remoteInfo = "Dottie_v4 WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		460FB3412EB08204003694C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				460FB3112EB08202003694C1 /* Dottie_v4 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3452EB08204003694C1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				460FB3062EB08201003694C1 /* Dottie_v4 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		460FB2E12EB081FE003694C1 /* Dottie_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dottie_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB2E42EB081FE003694C1 /* Dottie_v4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4App.swift; sourceTree = "<group>"; };
+		460FB2E62EB081FE003694C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		460FB2E82EB08200003694C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460FB2EB2EB08200003694C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		460FB2F12EB08200003694C1 /* Dottie_v4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dottie_v4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB2F52EB08200003694C1 /* Dottie_v4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4Tests.swift; sourceTree = "<group>"; };
+		460FB2FB2EB08201003694C1 /* Dottie_v4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dottie_v4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB2FF2EB08201003694C1 /* Dottie_v4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4UITests.swift; sourceTree = "<group>"; };
+		460FB3012EB08201003694C1 /* Dottie_v4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		460FB3052EB08201003694C1 /* Dottie_v4 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dottie_v4 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB30A2EB08202003694C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460FB3102EB08202003694C1 /* Dottie_v4 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dottie_v4 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB3152EB08202003694C1 /* Dottie_v4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4App.swift; sourceTree = "<group>"; };
+		460FB3172EB08202003694C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		460FB3192EB08202003694C1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		460FB31B2EB08202003694C1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		460FB31D2EB08202003694C1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		460FB31F2EB08204003694C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460FB3222EB08204003694C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		460FB3242EB08204003694C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460FB3252EB08204003694C1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		460FB32A2EB08204003694C1 /* Dottie_v4 WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dottie_v4 WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB32E2EB08204003694C1 /* Dottie_v4_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		460FB3342EB08204003694C1 /* Dottie_v4 WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dottie_v4 WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FB3382EB08204003694C1 /* Dottie_v4_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		460FB33A2EB08204003694C1 /* Dottie_v4_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dottie_v4_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		460FB3562EB0839F003694C1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		460FB35D2EB0884F003694C1 /* Dottie_v4 WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dottie_v4 WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		460FB35E2EB08850003694C1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460FB2DE2EB081FE003694C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB2EE2EB08200003694C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB2F82EB08201003694C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB30D2EB08202003694C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3272EB08204003694C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3312EB08204003694C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460FB2D82EB081FE003694C1 = {
+			isa = PBXGroup;
+			children = (
+				460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */,
+				460FB35E2EB08850003694C1 /* Persistence.swift */,
+				460FB3652EB0F0C0003694C1 /* HealthKitManager.swift */,
+				460FB2E32EB081FE003694C1 /* Dottie_v4 */,
+				460FB2F42EB08200003694C1 /* Dottie_v4Tests */,
+				460FB2FE2EB08201003694C1 /* Dottie_v4UITests */,
+				460FB3092EB08201003694C1 /* Dottie_v4 WatchKit App */,
+				460FB3142EB08202003694C1 /* Dottie_v4 WatchKit Extension */,
+				460FB32D2EB08204003694C1 /* Dottie_v4 WatchKit AppTests */,
+				460FB3372EB08204003694C1 /* Dottie_v4 WatchKit AppUITests */,
+				460FB2E22EB081FE003694C1 /* Products */,
+				460FB35D2EB0884F003694C1 /* Dottie_v4 WatchKit App-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		460FB2E22EB081FE003694C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460FB2E12EB081FE003694C1 /* Dottie_v4.app */,
+				460FB2F12EB08200003694C1 /* Dottie_v4Tests.xctest */,
+				460FB2FB2EB08201003694C1 /* Dottie_v4UITests.xctest */,
+				460FB3052EB08201003694C1 /* Dottie_v4 WatchKit App.app */,
+				460FB3102EB08202003694C1 /* Dottie_v4 WatchKit Extension.appex */,
+				460FB32A2EB08204003694C1 /* Dottie_v4 WatchKit AppTests.xctest */,
+				460FB3342EB08204003694C1 /* Dottie_v4 WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460FB2E32EB081FE003694C1 /* Dottie_v4 */ = {
+			isa = PBXGroup;
+			children = (
+				460FB2E42EB081FE003694C1 /* Dottie_v4App.swift */,
+				460FB2E62EB081FE003694C1 /* ContentView.swift */,
+				460FB2E82EB08200003694C1 /* Assets.xcassets */,
+				460FB2EA2EB08200003694C1 /* Preview Content */,
+			);
+			path = Dottie_v4;
+			sourceTree = "<group>";
+		};
+		460FB2EA2EB08200003694C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				460FB2EB2EB08200003694C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		460FB2F42EB08200003694C1 /* Dottie_v4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				460FB2F52EB08200003694C1 /* Dottie_v4Tests.swift */,
+			);
+			path = Dottie_v4Tests;
+			sourceTree = "<group>";
+		};
+		460FB2FE2EB08201003694C1 /* Dottie_v4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				460FB2FF2EB08201003694C1 /* Dottie_v4UITests.swift */,
+				460FB3012EB08201003694C1 /* Dottie_v4UITestsLaunchTests.swift */,
+			);
+			path = Dottie_v4UITests;
+			sourceTree = "<group>";
+		};
+		460FB3092EB08201003694C1 /* Dottie_v4 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				460FB30A2EB08202003694C1 /* Assets.xcassets */,
+			);
+			path = "Dottie_v4 WatchKit App";
+			sourceTree = "<group>";
+		};
+		460FB3142EB08202003694C1 /* Dottie_v4 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				460FB3152EB08202003694C1 /* Dottie_v4App.swift */,
+				460FB3172EB08202003694C1 /* ContentView.swift */,
+				460FB3192EB08202003694C1 /* NotificationController.swift */,
+				460FB31B2EB08202003694C1 /* NotificationView.swift */,
+				460FB31D2EB08202003694C1 /* ComplicationController.swift */,
+				460FB31F2EB08204003694C1 /* Assets.xcassets */,
+				460FB3242EB08204003694C1 /* Info.plist */,
+				460FB3252EB08204003694C1 /* PushNotificationPayload.apns */,
+				460FB3212EB08204003694C1 /* Preview Content */,
+			);
+			path = "Dottie_v4 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		460FB3212EB08204003694C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				460FB3222EB08204003694C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		460FB32D2EB08204003694C1 /* Dottie_v4 WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				460FB32E2EB08204003694C1 /* Dottie_v4_WatchKit_AppTests.swift */,
+			);
+			path = "Dottie_v4 WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		460FB3372EB08204003694C1 /* Dottie_v4 WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				460FB3382EB08204003694C1 /* Dottie_v4_WatchKit_AppUITests.swift */,
+				460FB33A2EB08204003694C1 /* Dottie_v4_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Dottie_v4 WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460FB2E02EB081FE003694C1 /* Dottie_v4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB3462EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4" */;
+			buildPhases = (
+				460FB2DD2EB081FE003694C1 /* Sources */,
+				460FB2DE2EB081FE003694C1 /* Frameworks */,
+				460FB2DF2EB081FE003694C1 /* Resources */,
+				460FB3452EB08204003694C1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FB3082EB08201003694C1 /* PBXTargetDependency */,
+			);
+			name = Dottie_v4;
+			productName = Dottie_v4;
+			productReference = 460FB2E12EB081FE003694C1 /* Dottie_v4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		460FB2F02EB08200003694C1 /* Dottie_v4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB3492EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4Tests" */;
+			buildPhases = (
+				460FB2ED2EB08200003694C1 /* Sources */,
+				460FB2EE2EB08200003694C1 /* Frameworks */,
+				460FB2EF2EB08200003694C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FB2F32EB08200003694C1 /* PBXTargetDependency */,
+			);
+			name = Dottie_v4Tests;
+			productName = Dottie_v4Tests;
+			productReference = 460FB2F12EB08200003694C1 /* Dottie_v4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		460FB2FA2EB08201003694C1 /* Dottie_v4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB34C2EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4UITests" */;
+			buildPhases = (
+				460FB2F72EB08201003694C1 /* Sources */,
+				460FB2F82EB08201003694C1 /* Frameworks */,
+				460FB2F92EB08201003694C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FB2FD2EB08201003694C1 /* PBXTargetDependency */,
+			);
+			name = Dottie_v4UITests;
+			productName = Dottie_v4UITests;
+			productReference = 460FB2FB2EB08201003694C1 /* Dottie_v4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		460FB3042EB08201003694C1 /* Dottie_v4 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB3422EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit App" */;
+			buildPhases = (
+				460FB3032EB08201003694C1 /* Resources */,
+				460FB3412EB08204003694C1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FB3132EB08202003694C1 /* PBXTargetDependency */,
+			);
+			name = "Dottie_v4 WatchKit App";
+			productName = "Dottie_v4 WatchKit App";
+			productReference = 460FB3052EB08201003694C1 /* Dottie_v4 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		460FB30F2EB08202003694C1 /* Dottie_v4 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB33E2EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit Extension" */;
+			buildPhases = (
+				460FB30C2EB08202003694C1 /* Sources */,
+				460FB30D2EB08202003694C1 /* Frameworks */,
+				460FB30E2EB08202003694C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dottie_v4 WatchKit Extension";
+			productName = "Dottie_v4 WatchKit Extension";
+			productReference = 460FB3102EB08202003694C1 /* Dottie_v4 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		460FB3292EB08204003694C1 /* Dottie_v4 WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB34F2EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit AppTests" */;
+			buildPhases = (
+				460FB3262EB08204003694C1 /* Sources */,
+				460FB3272EB08204003694C1 /* Frameworks */,
+				460FB3282EB08204003694C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FB32C2EB08204003694C1 /* PBXTargetDependency */,
+			);
+			name = "Dottie_v4 WatchKit AppTests";
+			productName = "Dottie_v4 WatchKit AppTests";
+			productReference = 460FB32A2EB08204003694C1 /* Dottie_v4 WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		460FB3332EB08204003694C1 /* Dottie_v4 WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FB3522EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit AppUITests" */;
+			buildPhases = (
+				460FB3302EB08204003694C1 /* Sources */,
+				460FB3312EB08204003694C1 /* Frameworks */,
+				460FB3322EB08204003694C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FB3362EB08204003694C1 /* PBXTargetDependency */,
+			);
+			name = "Dottie_v4 WatchKit AppUITests";
+			productName = "Dottie_v4 WatchKit AppUITests";
+			productReference = 460FB3342EB08204003694C1 /* Dottie_v4 WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460FB2D92EB081FE003694C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					460FB2E02EB081FE003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					460FB2F02EB08200003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 460FB2E02EB081FE003694C1;
+					};
+					460FB2FA2EB08201003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 460FB2E02EB081FE003694C1;
+					};
+					460FB3042EB08201003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+					460FB30F2EB08202003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					460FB3292EB08204003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 460FB30F2EB08202003694C1;
+					};
+					460FB3332EB08204003694C1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 460FB3042EB08201003694C1;
+					};
+				};
+			};
+			buildConfigurationList = 460FB2DC2EB081FE003694C1 /* Build configuration list for PBXProject "Dottie_v4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460FB2D82EB081FE003694C1;
+			productRefGroup = 460FB2E22EB081FE003694C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460FB2E02EB081FE003694C1 /* Dottie_v4 */,
+				460FB2F02EB08200003694C1 /* Dottie_v4Tests */,
+				460FB2FA2EB08201003694C1 /* Dottie_v4UITests */,
+				460FB3042EB08201003694C1 /* Dottie_v4 WatchKit App */,
+				460FB30F2EB08202003694C1 /* Dottie_v4 WatchKit Extension */,
+				460FB3292EB08204003694C1 /* Dottie_v4 WatchKit AppTests */,
+				460FB3332EB08204003694C1 /* Dottie_v4 WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460FB2DF2EB081FE003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB2EC2EB08200003694C1 /* Preview Assets.xcassets in Resources */,
+				460FB2E92EB08200003694C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB2EF2EB08200003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB2F92EB08201003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3032EB08201003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB30B2EB08202003694C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB30E2EB08202003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB3232EB08204003694C1 /* Preview Assets.xcassets in Resources */,
+				460FB3202EB08204003694C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3282EB08204003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3322EB08204003694C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460FB2DD2EB081FE003694C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB2E72EB081FE003694C1 /* ContentView.swift in Sources */,
+				460FB35F2EB08850003694C1 /* Persistence.swift in Sources */,
+				460FB2E52EB081FE003694C1 /* Dottie_v4App.swift in Sources */,
+				460FB3662EB0F0C0003694C1 /* HealthKitManager.swift in Sources */,
+				460FB3572EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB2ED2EB08200003694C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB2F62EB08200003694C1 /* Dottie_v4Tests.swift in Sources */,
+				460FB3602EB08850003694C1 /* Persistence.swift in Sources */,
+				460FB3672EB0F0C0003694C1 /* HealthKitManager.swift in Sources */,
+				460FB3582EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB2F72EB08201003694C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB3002EB08201003694C1 /* Dottie_v4UITests.swift in Sources */,
+				460FB3612EB08850003694C1 /* Persistence.swift in Sources */,
+				460FB3022EB08201003694C1 /* Dottie_v4UITestsLaunchTests.swift in Sources */,
+				460FB3682EB0F0C0003694C1 /* HealthKitManager.swift in Sources */,
+				460FB3592EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB30C2EB08202003694C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB31A2EB08202003694C1 /* NotificationController.swift in Sources */,
+				460FB3182EB08202003694C1 /* ContentView.swift in Sources */,
+				460FB3692EB0F0C0003694C1 /* HealthKitManager.swift in Sources */,
+				460FB3622EB08850003694C1 /* Persistence.swift in Sources */,
+				460FB31E2EB08202003694C1 /* ComplicationController.swift in Sources */,
+				460FB3162EB08202003694C1 /* Dottie_v4App.swift in Sources */,
+				460FB31C2EB08202003694C1 /* NotificationView.swift in Sources */,
+				460FB35A2EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3262EB08204003694C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB32F2EB08204003694C1 /* Dottie_v4_WatchKit_AppTests.swift in Sources */,
+				460FB3632EB08850003694C1 /* Persistence.swift in Sources */,
+				460FB36A2EB0F0C0003694C1 /* HealthKitManager.swift in Sources */,
+				460FB35B2EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FB3302EB08204003694C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FB33B2EB08204003694C1 /* Dottie_v4_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				460FB3642EB08850003694C1 /* Persistence.swift in Sources */,
+				460FB3392EB08204003694C1 /* Dottie_v4_WatchKit_AppUITests.swift in Sources */,
+				460FB36B2EB0F0C0003694C1 /* HealthKitManager.swift in Sources */,
+				460FB35C2EB0839F003694C1 /* HealthDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460FB2F32EB08200003694C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FB2E02EB081FE003694C1 /* Dottie_v4 */;
+			targetProxy = 460FB2F22EB08200003694C1 /* PBXContainerItemProxy */;
+		};
+		460FB2FD2EB08201003694C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FB2E02EB081FE003694C1 /* Dottie_v4 */;
+			targetProxy = 460FB2FC2EB08201003694C1 /* PBXContainerItemProxy */;
+		};
+		460FB3082EB08201003694C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FB3042EB08201003694C1 /* Dottie_v4 WatchKit App */;
+			targetProxy = 460FB3072EB08201003694C1 /* PBXContainerItemProxy */;
+		};
+		460FB3132EB08202003694C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FB30F2EB08202003694C1 /* Dottie_v4 WatchKit Extension */;
+			targetProxy = 460FB3122EB08202003694C1 /* PBXContainerItemProxy */;
+		};
+		460FB32C2EB08204003694C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FB30F2EB08202003694C1 /* Dottie_v4 WatchKit Extension */;
+			targetProxy = 460FB32B2EB08204003694C1 /* PBXContainerItemProxy */;
+		};
+		460FB3362EB08204003694C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FB3042EB08201003694C1 /* Dottie_v4 WatchKit App */;
+			targetProxy = 460FB3352EB08204003694C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		460FB33C2EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		460FB33D2EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		460FB33F2EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dottie_v4 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dottie_v4 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dottie_v4 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		460FB3402EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dottie_v4 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dottie_v4 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dottie_v4 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		460FB3432EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dottie_v4_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dottie_v4 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Personal.Dottie-v4";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Dottie_v4 WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		460FB3442EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dottie_v4_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dottie_v4 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Personal.Dottie-v4";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Dottie_v4 WatchKit App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		460FB3472EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dottie_v4/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460FB3482EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dottie_v4/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460FB34A2EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dottie_v4.app/Dottie_v4";
+			};
+			name = Debug;
+		};
+		460FB34B2EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dottie_v4.app/Dottie_v4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460FB34D2EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dottie_v4;
+			};
+			name = Debug;
+		};
+		460FB34E2EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dottie_v4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460FB3502EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dottie_v4 WatchKit Extension.appex/Dottie_v4 WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		460FB3512EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dottie_v4 WatchKit Extension.appex/Dottie_v4 WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		460FB3532EB08204003694C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dottie_v4 WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		460FB3542EB08204003694C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZNQAURSL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Dottie-v4-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dottie_v4 WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460FB2DC2EB081FE003694C1 /* Build configuration list for PBXProject "Dottie_v4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB33C2EB08204003694C1 /* Debug */,
+				460FB33D2EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB33E2EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB33F2EB08204003694C1 /* Debug */,
+				460FB3402EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB3422EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB3432EB08204003694C1 /* Debug */,
+				460FB3442EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB3462EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB3472EB08204003694C1 /* Debug */,
+				460FB3482EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB3492EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB34A2EB08204003694C1 /* Debug */,
+				460FB34B2EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB34C2EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB34D2EB08204003694C1 /* Debug */,
+				460FB34E2EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB34F2EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB3502EB08204003694C1 /* Debug */,
+				460FB3512EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FB3522EB08204003694C1 /* Build configuration list for PBXNativeTarget "Dottie_v4 WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FB3532EB08204003694C1 /* Debug */,
+				460FB3542EB08204003694C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		460FB3552EB0839F003694C1 /* HealthDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				460FB3562EB0839F003694C1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 460FB3562EB0839F003694C1 /* Model.xcdatamodel */;
+			path = HealthDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 460FB2D92EB081FE003694C1 /* Project object */;
+}
