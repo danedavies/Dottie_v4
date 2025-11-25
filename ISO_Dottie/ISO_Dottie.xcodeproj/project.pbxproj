@@ -47,6 +47,16 @@
 			);
 			target = 46B3DC162EC346660023E775 /* ISO_Dottie */;
 		};
+		46F9A6E02ED5E15C0084C92E /* Exceptions for "Shared" folder in "ISO_Dottie" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ActivityCard.swift,
+				DashboardViewModel.swift,
+				HealthKitManager.swift,
+				Item.swift,
+			);
+			target = 46B3DC162EC346660023E775 /* ISO_Dottie */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -61,6 +71,14 @@
 		46F9A6D02ED4B73C0084C92E /* Dottie_Watch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Dottie_Watch Watch App";
+			sourceTree = "<group>";
+		};
+		46F9A6DF2ED5E1550084C92E /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46F9A6E02ED5E15C0084C92E /* Exceptions for "Shared" folder in "ISO_Dottie" target */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -86,6 +104,7 @@
 		46B3DC0E2EC346660023E775 = {
 			isa = PBXGroup;
 			children = (
+				46F9A6DF2ED5E1550084C92E /* Shared */,
 				46B3DC192EC346660023E775 /* ISO_Dottie */,
 				46F9A6D02ED4B73C0084C92E /* Dottie_Watch Watch App */,
 				46B3DC182EC346660023E775 /* Products */,
@@ -142,6 +161,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				46F9A6D02ED4B73C0084C92E /* Dottie_Watch Watch App */,
+				46F9A6DF2ED5E1550084C92E /* Shared */,
 			);
 			name = "Dottie_Watch Watch App";
 			packageProductDependencies = (
