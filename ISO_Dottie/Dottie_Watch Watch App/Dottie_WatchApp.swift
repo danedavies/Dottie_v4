@@ -9,7 +9,12 @@ import SwiftUI
 import SwiftData
 
 @main
-struct Dottie_Watch_Watch_AppApp: App {
+struct Dottie_WatchApp: App {
+    
+   
+    
+    
+    
     var body: some Scene {
         WindowGroup {
             MainTabView()

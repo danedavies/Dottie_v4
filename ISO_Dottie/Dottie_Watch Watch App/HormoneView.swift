@@ -80,11 +80,7 @@ struct HormoneView: View {
         let entry = HormoneEntry(name: option.name, icon: option.icon, type: option.type)
         context.insert(entry)
         
-        // Log to Firebase
-        /*
-        Task {
-            await FirebaseManager.shared.logHormoneEntry(entry)
-        }*/
+     // Location of DB
     }
 }
 

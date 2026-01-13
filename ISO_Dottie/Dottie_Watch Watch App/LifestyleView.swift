@@ -85,11 +85,7 @@ struct LifestyleView: View {
         let entry = LifestyleEntry(name: option.name, icon: option.icon, category: option.category)
         context.insert(entry)
         
-        // Log to Firebase
-        /*
-        Task {
-            await FirebaseManager.shared.logLifestyleEntry(entry)
-        }*/
+       // Location of DB
     }
 }
 

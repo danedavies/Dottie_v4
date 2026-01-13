@@ -37,11 +37,8 @@ struct GlucoseView: View {
         }
         .task {
             await manager.fetchAllData()
+            // Location of db
             
-            // Log glucose reading to Firebase if available
-            /*if let glucose = manager.glucoseLevel {
-                await FirebaseManager.shared.logGlucoseReading(level: glucose)
-            }*/
         }
     }
     

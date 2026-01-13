@@ -84,11 +84,9 @@ struct FoodView: View {
         let entry = FoodEntry(name: option.name, icon: option.icon, category: option.category)
         context.insert(entry)
         
-        // Log to Firebase
-        /*
-        Task {
-            await FirebaseManager.shared.logFoodEntry(entry)
-        }*/
+        // Future DB
+        
+       
     }
 }
 

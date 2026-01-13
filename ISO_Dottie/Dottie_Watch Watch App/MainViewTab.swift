@@ -1,5 +1,5 @@
 //
-//  MainViewTab.swift
+//  MainTabView.swift
 //  Dottie_Watch Watch App
 //
 //  Created by Dane Davies on 11/18/25.
