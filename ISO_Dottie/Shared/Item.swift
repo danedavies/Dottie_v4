@@ -8,11 +8,66 @@
 import SwiftData
 import Foundation
 
+// Food Entry Model
+@Model
+class FoodEntry {
+    var id: UUID
+    var name: String
+    var icon: String
+    var category: String
+    var timestamp: Date
+    
+    init(name: String, icon: String, category: String, timestamp: Date = Date()) {
+        self.id = UUID()
+        self.name = name
+        self.icon = icon
+        self.category = category
+        self.timestamp = timestamp
+    }
+}
+
+// Hormone Entry Model
+@Model
+class HormoneEntry {
+    var id: UUID
+    var name: String
+    var icon: String
+    var type: String
+    var timestamp: Date
+    
+    init(name: String, icon: String, type: String, timestamp: Date = Date()) {
+        self.id = UUID()
+        self.name = name
+        self.icon = icon
+        self.type = type
+        self.timestamp = timestamp
+    }
+}
+
+// Lifestyle Entry Model
+@Model
+class LifestyleEntry {
+    var id: UUID
+    var name: String
+    var icon: String
+    var category: String
+    var timestamp: Date
+    
+    init(name: String, icon: String, category: String, timestamp: Date = Date()) {
+        self.id = UUID()
+        self.name = name
+        self.icon = icon
+        self.category = category
+        self.timestamp = timestamp
+    }
+}
+
+// Legacy models (temp) REMOVE AFTER TESTING IF NOT NEEDED
 @Model
 class SleepItem {
     var date: Date
     var hours: Double
-    var quality: Double // 0–1 rating or derived from HK
+    var quality: Double
     
     init(date: Date, hours: Double, quality: Double) {
         self.date = date
@@ -26,7 +81,7 @@ class ExerciseItem {
     var date: Date
     var steps: Int
     var caloriesBurned: Double
-    var duration: Double // minutes
+    var duration: Double
     
     init(date: Date, steps: Int, caloriesBurned: Double, duration: Double) {
         self.date = date
@@ -56,7 +111,7 @@ class NutritionItem {
 @Model
 class GlucoseItem {
     var date: Date
-    var glucoseLevel: Double // mg/dL
+    var glucoseLevel: Double
     
     init(date: Date, glucoseLevel: Double) {
         self.date = date

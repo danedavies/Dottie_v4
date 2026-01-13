@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct Dottie_Watch_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            MainTabView()
+        }.modelContainer(for: [
+            FoodEntry.self,
+            HormoneEntry.self,
+            LifestyleEntry.self
+        ])
     }
 }
